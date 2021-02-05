@@ -1,0 +1,106 @@
+@import url("fonts/Avenir.ttc");
+@import url("fonts/forum-regular.ttf");
+body {
+    margin: 0;
+}
+
+.main-title-div {
+    display: flex;
+    justify-content: center;
+}
+
+.main-title {
+    text-align: center;
+    font-family: "Avenir Black";
+    font-size: 75px;
+    margin: 0.5em 0em 0em 0em;
+}
+
+.nav {
+    display: flex;
+    padding: 1em 0em 1em 0em;
+    background-color: none;
+    justify-content: center;
+    font-family: "Avenir Black", sans-serif;
+    margin: 1em auto;
+    width: 83%;
+}
+
+.nav-button {
+    width: 100%;
+    text-align: center;
+    padding: -100%;
+}
+
+.h-link {
+    font-family: Forum, serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.strip {
+    display: flex;
+    justify-content: center;
+}
+
+.about-div {
+    width: 33vw;
+    height: 33vw;
+}
+
+.about-para {
+    font-family: "Avenir Medium", sans-serif;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.body-div {
+    width: 33vw;
+    /* height: 33vw; */
+}
+
+.body-para {
+    font-family: "Avenir Medium", sans-serif;
+    font-size: 16pt;
+    text-align: left;
+    padding: 1em;
+}
+
+
+/* RIITE */
+
+.img-div-1 {
+    width: 33vw;
+}
+
+#rite-strobe {
+    width: 100%;
+}
+
+.img-div-2 {
+    width: 66vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#good-vibes {
+    width: 100%;
+}
