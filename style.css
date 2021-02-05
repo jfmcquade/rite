@@ -32,6 +32,13 @@ body {
     padding: -100%;
 }
 
+footer {
+    width: 16.7vw%;
+    text-align: center;
+    font-family: "Avenir Medium", sans-serif;
+    font-size: 10pt;
+}
+
 .h-link {
     font-family: Forum, serif;
 }
@@ -48,7 +55,7 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color: hotpink;
+    color: #ff47ed;
 }
 
 a:active {
@@ -99,8 +106,58 @@ a:active {
     width: 66vw;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #good-vibes {
     width: 100%;
+}
+
+
+/* RIIITE */
+
+#bloom {
+    width: 33vw;
+}
+
+#xmap {
+    width: 100%;
+}
+
+.img-div-3 {
+    width: 33vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.h-poster {
+    width: 100%;
+}
+
+.inverted {
+    background-color: black;
+    color: white;
+}
+
+.nav-i:link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-i:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-i:hover {
+    text-decoration: none;
+    color: gold;
+}
+
+.nav-i:active {
+    text-decoration: none;
+    color: white;
 }
